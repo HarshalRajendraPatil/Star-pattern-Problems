@@ -1,4 +1,8 @@
-// Printing the square with stars.
+// Printing the square with stars, where the number of rows for the squaer will be enter by the user.
+// EX.  ****
+//      ****
+//      ****
+//      ****
 
 # include<stdio.h>
 

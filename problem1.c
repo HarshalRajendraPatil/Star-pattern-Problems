@@ -70,3 +70,29 @@ int main(){
 
     return 0;
 }
+
+
+// Print star Pattern as follows where the number of lines is entered by the user.
+/*
+    ***
+    **
+    *
+    May be called as inverted half Pyramid.
+*/
+
+# include<stdio.h>
+
+int main(){
+    int lines;
+    printf("Please enter the number of lines for the star pattern:\n");
+    scanf("%d", &lines);
+
+    for(int i = 0; i < lines; i++){
+        for (int j = 0; j < lines - i; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
